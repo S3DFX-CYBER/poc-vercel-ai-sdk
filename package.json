@@ -1,20 +1,12 @@
 {
-  "name": "vercel-ai-sdk-poc",
+  "name": "vercel-ai-sdk-toolcall-poc",
   "version": "1.0.0",
-  "description": "PoC demonstrating unvalidated dynamic tool input leading to code execution",
   "type": "module",
-  "main": "index.ts",
   "scripts": {
-    "start": "node index.ts"
+    "start": "tsx index.ts"
   },
-  "keywords": [
-    "security",
-    "poc",
-    "ai-sdk",
-    "tool-call",
-    "vulnerability"
-  ],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {}
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
 }
